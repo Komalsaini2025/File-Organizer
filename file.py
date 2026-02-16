@@ -34,7 +34,7 @@ if uploaded_files:
                
                 content = uploaded_file.getvalue().decode("utf-8", errors="ignore")
                 st.code(content[:1000] if len(content) > 1000 else content, language=ext)
-            elif ext in ["jpg", "jpeg", "png", ""]:
+            elif ext in ["jpg", "jpeg", "png", "gif"]:
                 
                 st.image(uploaded_file, caption=uploaded_file.name, use_column_width=True)
             elif ext in ["pdf"]:
