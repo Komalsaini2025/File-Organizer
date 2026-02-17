@@ -48,5 +48,5 @@ if uploaded_files:
         except Exception as e:
             st.error(f"Error handling {uploaded_file.name}: {str(e)}")
 
-    st.success(f"{moved} file(s) organized and previewed.")
+    st.success(f"{moved} file(s) organized and previeweds.")
 
