@@ -14,7 +14,7 @@ base_dir.mkdir(exist_ok = True)
 if uploaded_files:
     moved = 0
     st.markdown("---")
-    st.subheader("📁 Organized & Previewed Files")
+    st.subheader("📁 Organized & Previewed all types of Files")
 
     for uploaded_file in uploaded_files:
         try:
